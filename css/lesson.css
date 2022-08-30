@@ -1,0 +1,197 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+  background: linear-gradient(0deg, rgba(112, 105, 105, 0.2), rgba(96, 90, 90, 0.2)), rgba(9, 6, 6, 0);
+  backdrop-filter: blur(17px);
+}
+#header .header--general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+#header .header--general h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  height: 55px;
+  width: 84px;
+  text-align: center;
+  padding-top: 10px;
+  background: #CF381D;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+#header .header--general .header--general__block {
+  display: flex;
+}
+#header .header--general .header--general__block a {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #FFFFFF;
+  padding: 20px;
+  transition: 0.4s;
+}
+#header .header--general .header--general__block a:hover {
+  transform: scale(1.1);
+  color: #CF381D;
+}
+
+#lesson {
+  background: #1E1E1E;
+  padding-top: 100px;
+}
+#lesson .lesson--general h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 43px;
+  color: #FFFFFF;
+  padding: 20px 0;
+}
+#lesson .lesson--general p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 20px 0 40px;
+}
+#lesson .lesson--general__block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 150px;
+}
+#lesson .lesson--general__block h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+#lesson .lesson--general__block p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  width: 414px;
+  height: 106px;
+  padding-top: 50px;
+  border: 1px solid #FFFFFF;
+  text-align: center;
+}
+
+#hall {
+  background: #1E1E1E;
+}
+#hall .hall--general {
+  padding-bottom: 50px;
+}
+#hall .hall--general h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 43px;
+  color: #FFFFFF;
+}
+#hall .hall--general p {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+#hall .hall--general table {
+  margin: 50px 0;
+  color: #FFFFFF;
+  border: #CF381D;
+}
+#hall .hall--general table th {
+  padding: 10px 20px;
+}
+
+#footer {
+  background: #121212;
+}
+#footer .footer--general {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+#footer .footer--general__block {
+  display: flex;
+  flex-direction: column;
+}
+#footer .footer--general__block h1 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 600;
+  font-size: 12.3577px;
+  line-height: 15px;
+  color: #FFFFFF;
+  background: #CF381D;
+  border-radius: 6.17886px;
+  height: 55px;
+  width: 79px;
+  text-align: center;
+  padding-top: 20px;
+}
+#footer .footer--general__block img {
+  padding: 30px 0;
+}
+#footer .footer--general__title h2 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 50px 0;
+}
+#footer .footer--general__title span {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 500;
+  font-size: 23px;
+  line-height: 28px;
+  color: #FFFFFF;
+}
+#footer .footer--general__title img {
+  padding: 30px 30px 0 0;
+}
+#footer .footer--general__icon h3 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 10px;
+}
+#footer .footer--general__item h4 {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #FFFFFF;
+  padding: 15px;
+}
+
+/*# sourceMappingURL=lesson.css.map */

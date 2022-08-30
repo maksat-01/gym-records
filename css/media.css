@@ -1,0 +1,79 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1200px) {
+  #sale .sale--general__tabs--image {
+    width: 995px;
+  }
+  #sale .sale--general__tabs--image__css {
+    width: 995px;
+  }
+  #sale .sale--general__tabs--image__js {
+    width: 995px;
+  }
+}
+@media (max-width: 1024px) {
+  #sale .sale--general__tabs--image {
+    width: 900px;
+  }
+  #sale .sale--general__tabs--image__css {
+    width: 900px;
+  }
+  #sale .sale--general__tabs--image__js {
+    width: 900px;
+  }
+}
+@media (max-width: 768px) {
+  #sale .sale--general .sale--general__block label {
+    display: flex;
+    margin: 20px;
+    flex-direction: column;
+  }
+  #sale .sale--general__tabs--image {
+    width: 700px;
+  }
+  #sale .sale--general__tabs--image__css {
+    width: 700px;
+  }
+  #sale .sale--general__tabs--image__js {
+    width: 700px;
+  }
+  #about .about--general__click {
+    flex-direction: column;
+  }
+  #footer .footer--general__block {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  #sale .sale--general__tabs--image {
+    width: 500px;
+  }
+  #sale .sale--general__tabs--image__css {
+    width: 500px;
+  }
+  #sale .sale--general__tabs--image__js {
+    width: 500px;
+  }
+  #header .header--general .header--general__block {
+    display: none;
+  }
+  .hamburger-menu {
+    display: block;
+  }
+}
+@media (max-width: 450px) {
+  #sale .sale--general__tabs--image {
+    width: 400px;
+  }
+  #sale .sale--general__tabs--image__css {
+    width: 400px;
+  }
+  #sale .sale--general__tabs--image__js {
+    width: 400px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
